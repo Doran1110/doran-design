@@ -1,0 +1,46 @@
+{
+  "name": "dsh-skill-creative-web-design",
+  "version": "0.1.0",
+  "description": "A DSH skill pack for web design with shadcn/ui, Canvas UI and ThreeUI: three-layer architecture, performance budget and acceptance checklist.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "SKILL.md",
+    "cordis.patch.yml",
+    "README.md",
+    "PUBLISHING.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "skill",
+    "web-design",
+    "shadcn",
+    "canvas",
+    "threejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Doran1110/dsh-skill-creative-web-design"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.0",
+    "@deepseek-ai/dsh-skill": ">=0.1.0-rc.1 <0.2.0-0",
+    "@deepseek-ai/dsh-system-prompt": ">=0.1.0-rc.1 <0.2.0-0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
