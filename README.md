@@ -22,12 +22,6 @@ Install the prebuilt tarball from GitHub Releases:
 dsh plugin --profile web add https://github.com/Doran1110/dsh-skill-creative-web-design/releases/download/v0.1.0/dsh-skill-creative-web-design-0.1.0.tgz
 ```
 
-Once the package is on npm, the shorter form also works:
-
-```bash
-dsh plugin --profile web add dsh-skill-creative-web-design
-```
-
 Then add the package to the profile's `dsh.profile.bundles` list if your DSH version does not reconcile bundles automatically:
 
 ```json
