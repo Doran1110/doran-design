@@ -16,6 +16,14 @@ The plugin does not write `AGENTS.md`. The hard rules are contributed through `c
 
 ## Install
 
+Install the prebuilt tarball from GitHub Releases:
+
+```bash
+dsh plugin --profile web add https://github.com/Doran1110/dsh-skill-creative-web-design/releases/download/v0.1.0/dsh-skill-creative-web-design-0.1.0.tgz
+```
+
+Once the package is on npm, the shorter form also works:
+
 ```bash
 dsh plugin --profile web add dsh-skill-creative-web-design
 ```
