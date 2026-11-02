@@ -5,7 +5,7 @@ required for the DSH marketplace.
 
 ## 1. Repository
 
-The repository is `https://github.com/Doran1110/doran-creative-web-design`.
+The repository is `https://github.com/Doran1110/doran-design`.
 It must stay public and carry the `dsh-plugin` topic. The registry requires the
 repository to be at least one day old before a submission passes CI.
 
@@ -13,7 +13,7 @@ repository to be at least one day old before a submission passes CI.
 
 ```bash
 npm pack
-gh release create v0.1.0 ./doran-creative-web-design-0.1.0.tgz \
+gh release create v0.1.0 ./doran-design-0.1.0.tgz \
   --title "v0.1.0" \
   --notes "First release."
 ```
@@ -26,8 +26,8 @@ The asset name must stay version-free when the registry entry uses
 ```bash
 dsh --profile plugin-check --from-default-profile web --dump-config
 dsh plugin --profile plugin-check add \
-  https://github.com/Doran1110/doran-creative-web-design/releases/download/v0.1.0/doran-creative-web-design-0.1.0.tgz
-dsh --profile plugin-check --dump-config | grep -A2 doran-creative-web-design
+  https://github.com/Doran1110/doran-design/releases/download/v0.1.0/doran-design-0.1.0.tgz
+dsh --profile plugin-check --dump-config | grep -A2 doran-design
 ```
 
 Remove the throwaway profile afterwards.
@@ -37,7 +37,7 @@ Remove the throwaway profile afterwards.
 Fork `awesome-dsh-plugin/awesome-dsh-plugin` and add exactly one file:
 
 ```text
-data/plugins/Doran1110__doran-creative-web-design.yml
+data/plugins/Doran1110__doran-design.yml
 ```
 
 Its contents are in `submission-entry.yml`. Do not edit the generated READMEs.
