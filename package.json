@@ -1,7 +1,7 @@
 {
-  "name": "dsh-skill-creative-web-design",
+  "name": "doran-creative-web-design",
   "version": "0.1.0",
-  "description": "A DSH skill pack for web design with shadcn/ui, Canvas UI and ThreeUI: three-layer architecture, performance budget and acceptance checklist.",
+  "description": "Doran's DSH skill pack for web design with shadcn/ui, Canvas UI and ThreeUI: three-layer architecture, performance budget and acceptance checklist.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Doran1110/dsh-skill-creative-web-design"
+    "url": "https://github.com/Doran1110/doran-creative-web-design"
   },
   "dsh": {
     "bundle": {

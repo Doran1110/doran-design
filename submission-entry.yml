@@ -1,7 +1,7 @@
-url: https://github.com/Doran1110/dsh-skill-creative-web-design
-name: Doran1110/dsh-skill-creative-web-design
+url: https://github.com/Doran1110/doran-creative-web-design
+name: Doran1110/doran-creative-web-design
 category: skill
-tarball: https://github.com/Doran1110/dsh-skill-creative-web-design/releases/download/v0.1.0/dsh-skill-creative-web-design-0.1.0.tgz
+tarball: https://github.com/Doran1110/doran-creative-web-design/releases/download/v0.1.0/doran-creative-web-design-0.1.0.tgz
 description:
   en: Registers a web-design skill and six system-prompt rules for a three-layer shadcn/ui, Canvas UI and ThreeUI workflow.
   zh: 注册一个网页设计技能和六条系统提示规则，按 shadcn/ui、Canvas UI、ThreeUI 三层体系执行。

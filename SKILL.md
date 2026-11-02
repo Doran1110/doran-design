@@ -1,10 +1,10 @@
 ---
-name: creative-web-design-kit
+name: doran-creative-web-design
 description: "网页与产品界面的视觉设计和实现规范：shadcn/ui 结构层 + Canvas UI 特效层 + ThreeUI 3D 层，按 80/15/5 配比、性能预算与验收清单落地。"
 whenToUse: "当任务涉及网页设计、Landing Page、官网、Dashboard、作品集、Canvas/WebGL/Three.js UI、创意前端、组件选型或视觉审查时使用。"
 ---
 
-# Creative Web Design
+# Doran Creative Web Design
 
 ## 0. 一句话原则
 
