@@ -1,6 +1,6 @@
 {
   "name": "doran-design",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Doran's DSH skill pack for web design with shadcn/ui, Canvas UI and ThreeUI: three-layer architecture, performance budget and acceptance checklist.",
   "type": "module",
   "main": "lib/index.js",

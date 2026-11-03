@@ -13,20 +13,20 @@ repository to be at least one day old before a submission passes CI.
 
 ```bash
 npm pack
-gh release create v0.1.0 ./doran-design-0.1.0.tgz \
-  --title "v0.1.0" \
+gh release create v0.1.1 ./doran-design-0.1.1.tgz \
+  --title "v0.1.1" \
   --notes "First release."
 ```
 
 The asset name must stay version-free when the registry entry uses
-`latest/download/`; this entry pins `v0.1.0`, so the versioned filename is fine.
+`latest/download/`; this entry pins `v0.1.1`, so the versioned filename is fine.
 
 ## 3. Verify a clean install
 
 ```bash
 dsh --profile plugin-check --from-default-profile web --dump-config
 dsh plugin --profile plugin-check add \
-  https://github.com/Doran1110/doran-design/releases/download/v0.1.0/doran-design-0.1.0.tgz
+  https://github.com/Doran1110/doran-design/releases/download/v0.1.1/doran-design-0.1.1.tgz
 dsh --profile plugin-check --dump-config | grep -A2 doran-design
 ```
 

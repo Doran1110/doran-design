@@ -9,8 +9,8 @@ A DSH skill pack for web and product UI design. It registers one agent skill and
   - Canvas UI as the effect layer
   - ThreeUI / three.js as the 3D layer
   - the 80 / 15 / 5 visual-area split
-  - component selection, performance budgets, fallbacks and a 13-point acceptance checklist
-- System-prompt section `doran-design-rules`: six hard rules that always apply, including the one-GPU-effect-per-viewport rule and the mobile/reduced-motion fallback requirement.
+  - component selection, performance budgets, fallbacks and an acceptance checklist
+- System-prompt section `doran-design-rules`: a compact hard-rule set that always applies, including the one-GPU-effect-per-viewport rule, Radix UI Colors, 0.5px borders, the 12px minimum text size and the mobile/reduced-motion fallback requirement.
 
 The plugin does not write `AGENTS.md`. The hard rules are contributed through `ctx.systemPrompt.section`, so installing the plugin is enough.
 
@@ -19,7 +19,7 @@ The plugin does not write `AGENTS.md`. The hard rules are contributed through `c
 Install the prebuilt tarball from GitHub Releases:
 
 ```bash
-dsh plugin --profile web add https://github.com/Doran1110/doran-design/releases/download/v0.1.0/doran-design-0.1.0.tgz
+dsh plugin --profile web add https://github.com/Doran1110/doran-design/releases/download/v0.1.1/doran-design-0.1.1.tgz
 ```
 
 Then add the package to the profile's `dsh.profile.bundles` list if your DSH version does not reconcile bundles automatically:
